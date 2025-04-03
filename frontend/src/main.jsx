@@ -75,7 +75,19 @@ const App = () => {
 
   return (
     <>
-    <h1>Hello world</h1>
+    <div className="flex flex-col gap-4 justify-center items-center">
+      <div className="flex flex-col gap-4 justify-center items-center w-1/2 h-1/2 bg-white rounded-lg shadow-lg p-4">
+        <h1 className='text-2xl font-bold' >Daily Check-In</h1>
+        <div className='flex'>
+          <h1 className='text-2xl'>😊</h1>
+          <h1 className='text-2xl'>😢</h1>
+          <h1 className='text-2xl'>😡</h1>
+          <h1 className='text-2xl'>😁</h1>
+          <h1 className='text-2xl'>😫</h1>
+        </div>
+        <button className="p-4 border bg-green-500 text-white">Click Me</button>
+      </div>
+    </div>
     </>
     // <div className="flex min-h-screen items-center justify-center bg-gray-50 p-4">
     //   <div className="flex h-[80vh] w-full max-w-2xl flex-col rounded-lg bg-white shadow-lg">
